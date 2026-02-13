@@ -5,26 +5,35 @@ function App() {
     <>
       <section id="center"></section>
 
-      <div className="ticks"></div>
-
       <section id="next-steps">
         <div id="docs">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Documentation</h2>
-          <p>Your questions, answered</p>
           <ul>
             <li>
-              <a href="https://vite.dev/" target="_blank">
-                {/* <img className="logo" src={viteLogo} alt="" /> */}
-                Explore Vite
+              <a href="https://shinejs.vercel.app/docs/getting-started/react-quick-start" target="_blank">
+                <img className="button-icon" src="/favicon.ico" alt="" />
+                Getting&nbsp;Started
               </a>
             </li>
             <li>
-              <a href="https://react.dev/" target="_blank">
-                {/* <img className="button-icon" src={reactLogo} alt="" /> */}
-                Learn more
+              <a href="https://shinejs-demo.vercel.app" target="_blank">
+                <img className="button-icon" src="/favicon.ico" alt="" />
+                Explore
+              </a>
+            </li>
+            <li>
+              <a href="https://www.npmjs.com/package/@hazya/shinejs" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#npm-icon"></use>
+                </svg>
+                NPM
               </a>
             </li>
           </ul>
@@ -33,11 +42,10 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Connect</h2>
           <ul>
             <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
+              <a href="https://github.com/haZya/shinejs" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -49,47 +57,32 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="https://chat.vite.dev/" target="_blank">
+              <a href="https://linkedin.com/in/hasitha-wickramasinghe-92483a19b" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#discord-icon"></use>
+                  <use href="/icons.svg#linkedin-icon"></use>
                 </svg>
-                Discord
+                LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://x.com/vite_js" target="_blank">
+              <a href="https://hazya.dev" target="_blank">
                 <svg
                   className="button-icon"
                   role="presentation"
                   aria-hidden="true"
                 >
-                  <use href="/icons.svg#x-icon"></use>
+                  <use href="/icons.svg#code-icon"></use>
                 </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
+                hazya.dev
               </a>
             </li>
           </ul>
         </div>
       </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
     </>
   );
 }
