@@ -1,18 +1,18 @@
 import { Shine } from '@hazya/shinejs/react';
-import './App.css';
 import { NextSteps } from './components/NextSteps';
 import { ThemeToggle } from './components/ThemeToggle';
 
+import './App.css';
 
 function App() {
   return (
     <>
       <ThemeToggle />
 
-      <section id="center">
+      <section className="flex grow place-items-center px-20 pt-10 pb-20 lg:p-20">
         <Shine
           as="h1"
-          className="shine-heading"
+          className="text-[clamp(3rem,22vw,8rem)] font-bold text-(--hero-text) leading-none dark:invert"
           options={{
             light: {
               position: "followMouse",
