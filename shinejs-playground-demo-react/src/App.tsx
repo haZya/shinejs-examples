@@ -100,7 +100,7 @@ function App() {
       <ThemeToggle />
 
       <section className="flex flex-col grow place-items-center gap-8 px-10 md:px-20 pt-10 pb-20 lg:p-20">
-        <div className="grid gap-3 sm:grid-cols-2 w-full">
+        <div className="grid gap-3 sm:grid-cols-2 w-full dark:invert">
           <label className="flex flex-col gap-1 rounded-lg border bg-white/80 p-3">
             <span className="text-xs font-semibold text-slate-600">Content</span>
             <input
@@ -124,7 +124,7 @@ function App() {
         </div>
 
         {positionMode === "fixed" && (
-          <div className="grid gap-3 sm:grid-cols-2 w-full">
+          <div className="grid gap-3 sm:grid-cols-2 w-full dark:invert">
             <label className="flex flex-col gap-1 rounded-lg border bg-white/80 p-3">
               <span className="text-xs font-semibold text-slate-600">{`Fixed X: ${fixedX}`}</span>
               <input
@@ -150,7 +150,7 @@ function App() {
           </div>
         )}
 
-        <div className="grid gap-3 sm:grid-cols-2 w-full">
+        <div className="grid gap-3 sm:grid-cols-2 w-full dark:invert">
           <label className="flex flex-col gap-1 rounded-lg border bg-white/80 p-3">
             <span className="text-xs font-semibold text-slate-600">{`Intensity: ${intensity.toFixed(2)}`}</span>
             <input
@@ -241,7 +241,7 @@ function App() {
           </label>
         </div>
 
-        <div className='w-full space-y-4'>
+        <div className='w-full space-y-4 dark:invert'>
           <div className="flex items-center justify-center gap-3 rounded-lg border bg-white/80 p-3 w-full">
             <span className="text-xs font-semibold text-slate-600">shadowRGB</span>
             <input
