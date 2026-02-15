@@ -2,10 +2,12 @@ export function NextSteps() {
   return (
     <section id="next-steps">
       <div id="docs">
-        <svg className="icon" role="presentation" aria-hidden="true">
-          <use href="/icons.svg#documentation-icon"></use>
-        </svg>
-        <h2>Documentation</h2>
+        <div className="title">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#documentation-icon"></use>
+          </svg>
+          <h2>Documentation</h2>
+        </div>
         <ul>
           <li>
             <a href="https://shinejs.vercel.app/docs/getting-started/react-quick-start" target="_blank">
@@ -34,10 +36,12 @@ export function NextSteps() {
         </ul>
       </div>
       <div id="social">
-        <svg className="icon" role="presentation" aria-hidden="true">
-          <use href="/icons.svg#social-icon"></use>
-        </svg>
-        <h2>Connect</h2>
+        <div className="title">
+          <svg className="icon" role="presentation" aria-hidden="true">
+            <use href="/icons.svg#social-icon"></use>
+          </svg>
+          <h2>Connect</h2>
+        </div>
         <ul>
           <li>
             <a href="https://github.com/haZya/shinejs" target="_blank">

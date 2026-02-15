@@ -40,8 +40,18 @@
     }
   }
 
+  h2 {
+    color: var(--text-h);
+    font-weight: 500;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .icon {
-    margin-bottom: 16px;
     width: 22px;
     height: 22px;
   }
@@ -49,6 +59,10 @@
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
+
+    .title {
+      flex-direction: row;
+    }
   }
 }
 
