@@ -1,8 +1,8 @@
 import { Shine } from '@hazya/shinejs/react';
+import { useState } from 'react';
 import { NextSteps } from './components/NextSteps';
 import { ThemeToggle } from './components/ThemeToggle';
 
-import { useState } from 'react';
 import './App.css';
 
 const fontFamilies = {
