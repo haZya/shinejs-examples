@@ -1,0 +1,122 @@
+.theme-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 20px 0 0;
+}
+
+.theme-toggle {
+  border: 1px solid var(--border);
+  color: var(--text-h);
+  background: var(--social-bg);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    box-shadow 0.3s,
+    transform 0.2s,
+    background-color 0.3s;
+
+  &:hover {
+    box-shadow: var(--shadow);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 768px) {
+      padding: 24px 20px;
+    }
+  }
+
+  h2 {
+    color: var(--text-h);
+    font-weight: 500;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+
+    .title {
+      flex-direction: row;
+    }
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+
+  @media (max-width: 768px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+
+  a {
+    border: 1px solid var(--border);
+    color: var(--text-h);
+    font-size: 16px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+    .button-icon {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+}
