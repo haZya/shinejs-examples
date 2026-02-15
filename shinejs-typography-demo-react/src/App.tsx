@@ -99,7 +99,7 @@ function App() {
       <ThemeToggle />
 
       <section className="flex flex-col grow place-items-center gap-16 px-10 md:px-20 pt-10 pb-20 lg:p-20">
-        <div className="mt-16 flex w-full max-w-5xl flex-col gap-6 rounded-xl border border-slate-200 bg-white/70 p-5 shadow-sm sm:p-8 dark:bg-white/5">
+        <div className="flex w-full max-w-5xl flex-col gap-6 rounded-xl border border-slate-200 bg-white/70 p-5 shadow-sm sm:p-8 dark:bg-white/5">
           <div className="grid gap-4 sm:grid-cols-3">
             <div className="flex flex-col gap-2">
               <p className="w-fit text-xs font-bold tracking-[0.14em] text-slate-600 uppercase dark:text-slate-300">Font Family</p>
