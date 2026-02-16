@@ -12,7 +12,7 @@ function App() {
       <section className="flex grow place-items-center px-20 pt-10 pb-20 lg:p-20">
         <Shine
           as="h1"
-          className="text-[clamp(3rem,22vw,8rem)] font-bold text-(--hero-text) leading-none dark:invert"
+          className="text-[clamp(2rem,14vw,8rem)] font-bold text-(--hero-text) leading-none dark:invert"
           options={{
             light: {
               position: "followMouse",
